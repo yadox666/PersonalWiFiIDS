@@ -1,10 +1,6 @@
-# PersonalWiFiIDS
-▛▀▖                  ▜   ▌ ▌▜▘▛▀▖▞▀▖
-▙▄▘▞▀▖▙▀▖▞▀▘▞▀▖▛▀▖▝▀▖▐   ▌▖▌▐ ▌ ▌▚▄ 
-▌  ▛▀ ▌  ▝▀▖▌ ▌▌ ▌▞▀▌▐   ▙▚▌▐ ▌ ▌▖ ▌
-▘  ▝▀▘▘  ▀▀ ▝▀ ▘ ▘▝▀▘ ▘  ▘ ▘▀▘▀▀ ▝▀ 
-Personal Wireless Intrussion Detection System
+PersonalWiFiIDS
 =============================================
+(Personal Wireless Intrussion Detection System)
 
 This Python script mainly uses the Scapy library for detecting and
 warning all the typical Wi-Fi attacks ran by Wi-Fi hackers that,
