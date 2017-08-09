@@ -19,21 +19,21 @@ you'll get probably warned about it.
 
 Requirements
 ============
-Python 2.7
-Python Scapy 2.3 or newer
-Python gi library to notify on Desktop
-WiFi Monitor Mode compatible card (TP-LINK, Edimax)
-The script must be run with root privileges because of monitor mode
+* Python 2.7
+* Python Scapy 2.3 or newer
+* Python gi library to notify on Desktop
+* WiFi Monitor Mode compatible card (TP-LINK TL-WN722N v.1, Edimax)
+* The script must be run with root privileges because of monitor mode
 
 
 Libnotify
 =========
-apt-get --reinstall install libnotify-bin
-apt-get --reinstall install  notification-daemon
-nano  /etc/xdg/autostart/update-notifier.desktop
-nano  /etc/xdg/autostart/notification-daemon.desktop
-/usr/lib/notification-daemon/notification-daemon &
-notify-send hello
+* apt-get --reinstall install libnotify-bin
+* apt-get --reinstall install  notification-daemon
+* nano  /etc/xdg/autostart/update-notifier.desktop
+* nano  /etc/xdg/autostart/notification-daemon.desktop
+* /usr/lib/notification-daemon/notification-daemon &
+* notify-send hello
 
 
 Configuration
@@ -55,7 +55,10 @@ If run as root, the file must reside in:
 Example (/root/.macs2protect):
 ==============================
 00:18:39:AE:88:58   # my laptop mac
+
 76:3C:18:DA:8E:AB   # my smartphone mac
+
 C0:EE:FB:47:E8:05   # my tablet mac
+
 ONO_E1F1  # my home WiFi
 
