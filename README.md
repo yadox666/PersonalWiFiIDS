@@ -1,4 +1,4 @@
-PersonalWiFiIDS
+Personal Wi-Fi IDS
 =============================================
 (Personal Wireless Intrussion Detection System)
 
